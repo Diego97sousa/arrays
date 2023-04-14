@@ -126,3 +126,13 @@ arr = np.array([3, 2, 1, 5, 4])
 novo_arr = np.sort(arr)
 print(novo_arr)
 
+#Operações de matrizes
+#O Numpy é usado para álgebra linear e pode realizar operações de matriz, como multriplicação de matriz e inversão de matriz:
+
+arr1 = np.array([[1, 2], [3, 4]])
+arr2 = np.array([[5, 6], [7, 8]])
+novo_arr = np.dot(arr1, arr2)
+print(novo_arr)
+
+#Neste exemplo é efetuado a multiplicação de matriz entre arr1 e arr2 e criado um novo array:
+
